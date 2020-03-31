@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet"> 
+</header>
+
+<body>
+  <h1>Introduction to CSS Selectors</h1>
+    <p>CSS works on the principles of Cascading, Inheritance, and Specificity.</p>
+    <ul>
+      <li>Cascading means that the order of the rules matter; if two rules have equal specificity, the last one will apply.</li>
+      <li>Specificity is how the browser selects a rule if there are more than one that could apply to an element. For example, class selectors are more specific than element selectors.</li>
+      <li>Some CSS property values set on a parent are inherited (like font family), but some aren't (like width).</li>
+    </ul>
+  <h2>CSS Selectors</h2>
+    <table>
+      <thead>
+      <tr>
+        <th>Selector Type</th>
+        <th>Description</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>header</code></p></td>
+          <td>Selects an html element</td>
+        </tr>
+        <tr>
+          <td><code>.caption</code></p></td>
+          <td>Selects an html class</td>
+        </tr>
+        <tr>
+          <td><code>#title</code></p></td>
+          <td>Selects an html id tag</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan = "2">Specificity increases from top to bottom</td>
+        </tr>
+      </tfoot>
+      </tfoot>
+    </table>
+  <h2>Chaining Selectors</h2>
+  <p>Selectors can be chained in a number of ways:</p>
+  <ol>
+    <li>Nested elements can be selected by separating selectors with a space</li>
+    <li>Unrelated elements can be selected by separating the selector names with commas</li>
+  </ol>
+  <h2>Specificity</h2>
+  <p>In the table above, specificity increases from top to bottom. Element selectors are the least specific, then class, then ID.
+
+  </p>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+html {
+    font-size: 10px;
+}
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 1.5rem;
+}
+
+table {
+    background-color: mistyrose;
+    table-layout: auto;
+    width: 50%;
+    font-size: 1.5rem;
+    border: 1px solid;
+}
+
+thead, tfoot {
+    font-size: 2rem;
+    text-align: left;
+    background-color: rosybrown;
+}
+
+td {
+    margin-left: 10px;
+    border: 1px solid;
+    padding: 0.5rem
+}
+
+tfoot {
+    font-size: 1.5rem;
+}
+
+code {
+    background-color: salmon;
+    font-family: monospace
+}
